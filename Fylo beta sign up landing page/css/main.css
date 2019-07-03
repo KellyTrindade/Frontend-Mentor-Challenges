@@ -1,0 +1,78 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* header and background */
+#left-side {
+    float: left;
+    background-image: linear-gradient(to left bottom, hsl(243, 87%, 12%), hsl(244, 58%, 55%));
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#left-side img {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+#right-side {
+    float: right;
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 60px;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(0, 0%, 50%);
+}
+
+header {
+    width: 60%;
+    float: right;
+    box-sizing: border-box;
+    padding: 30px 60px;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+button {
+    background-color: hsl(163, 95%, 43%);
+    color: white;
+    border: none;
+    width: 125px;
+    height: 44px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+input {
+    border: none;
+    width: 220px;
+    height: 40px;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin-right: 10px;
+}
+
+a {
+    font-size: 11px;
+    color: hsl(243, 87%, 12%);
+    float: right;
+    margin-top: 25%;
+}
