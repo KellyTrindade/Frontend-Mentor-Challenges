@@ -1,0 +1,62 @@
+html
+{
+    width: 1440px;
+}
+
+/* 
+    Personalização do Header
+*/
+header 
+{
+    padding: 70px 60px;
+    margin-bottom: 100px;
+}
+
+#button-try 
+{
+    float: right;
+    text-decoration: none;
+    color: hsl(322, 100%, 66%);
+    border: solid 1px hsl(322, 100%, 66%);
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+/*
+    Personalização das sections
+*/
+
+/*
+    Top section
+*/
+.home-section
+{
+    color: hsl(192, 100%, 9%);
+    letter-spacing: 1px; 
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-title 
+{
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 0; 
+}
+
+.home-section p
+{
+    padding: 0 450px;
+    margin: 30px 0;
+}
+
+.button-get-started
+{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: hsl(322, 100%, 66%);
+    padding: 20px 80px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
