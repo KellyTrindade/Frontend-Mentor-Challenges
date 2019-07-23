@@ -70,3 +70,24 @@ header
     margin: 80px auto;
     display: block;
 }
+
+
+/*
+    Communities
+*/
+
+.community-section
+{
+    /* alignment */
+    display: flex;
+    justify-content: space-evenly;
+    /* text */
+    color: grey;
+    letter-spacing: 1px;
+}
+
+.community-section h1
+{
+    color: hsl(192, 100%, 9%);
+    font-size: 72px;
+}
