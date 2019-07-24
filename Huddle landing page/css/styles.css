@@ -9,7 +9,6 @@ html
 header 
 {
     padding: 70px 60px;
-    margin-bottom: 100px;
 }
 
 #button-try 
@@ -29,8 +28,9 @@ header
 /*
     Top section
 */
-.home-section
+.main-section
 {
+    margin-top: 100px;
     color: hsl(192, 100%, 9%);
     letter-spacing: 1px; 
     text-align: center;
@@ -38,12 +38,13 @@ header
 
 .section-title 
 {
-    font-size: 34px;
+    font-size: 32px;
     font-weight: bold;
     letter-spacing: 0; 
+    margin-bottom: 30px;
 }
 
-.home-section p
+.main-section p
 {
     padding: 0 450px;
     margin: 30px 0;
@@ -65,7 +66,7 @@ header
     cursor: pointer;
 }
 
-.home-section img 
+.main-section img 
 {
     margin: 80px auto;
     display: block;
@@ -84,10 +85,67 @@ header
     /* text */
     color: grey;
     letter-spacing: 1px;
+    margin-bottom: 100px;
 }
 
 .community-section h1
 {
     color: hsl(192, 100%, 9%);
     font-size: 72px;
+}
+
+/*
+    other sections
+*/
+
+.services-section
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: hsl(192, 100%, 9%);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.services-section h1
+{
+    margin-bottom: 20px;
+}
+
+.services-section img, .services-section div
+{
+    width: 500px;
+}
+
+
+.wave-cut-top, .wave-cut-footer
+{
+    position: relative;
+    top: 5px;
+}
+
+
+.blue-section
+{
+    background-color: hsl(207, 100%, 98%);
+}
+
+.white-section
+{
+    margin: 100px 0;
+}
+
+
+/*
+    Footer
+
+    *** remember to try to use grid here
+*/
+
+footer
+{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 70px;
 }
