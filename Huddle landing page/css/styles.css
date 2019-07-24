@@ -123,6 +123,7 @@ header
 {
     position: relative;
     top: 5px;
+    margin-top: 150px;
 }
 
 
@@ -148,4 +149,6 @@ footer
     background-color: hsl(192, 100%, 9%);
     color: white;
     padding: 70px;
+    display: grid;
+    grid-template-columns: 500px;
 }
