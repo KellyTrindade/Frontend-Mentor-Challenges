@@ -145,12 +145,13 @@ button
 
 footer
 {
+    font-size: 13px;
     background-color: hsl(192, 100%, 9%);
     color: white;
-    padding: 70px;
+    padding: 100px;
     display: grid;
     grid-template-columns: 330px 330px;
-    font-size: 13px;
+    grid-column-gap: 45%;
 }
 
 footer p
