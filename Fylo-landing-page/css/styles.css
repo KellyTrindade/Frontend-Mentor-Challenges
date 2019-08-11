@@ -1,0 +1,69 @@
+/*
+    Padrões do site
+*/
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type=button]
+{
+    padding: 20px 100px;
+    color: white;
+    background-color: hsl(163, 95%, 43%);
+    border: none;
+    border-radius: 3px;
+    
+    /*
+    adicionar uma classe aos botões de Get Started e utilizar a propriedade a seguir
+    box-shadow: 5px 5px 10px lightgrey;
+    */
+
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/*
+    Cabeçalho
+*/
+
+header
+{
+    height: 220px;
+
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header div
+{
+    padding: 40px 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div a
+{
+    margin-left: auto;
+    margin-right: 20px;
+
+    text-decoration: none;
+    color: white;
+}
+
+header div input[type=button]
+{
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
