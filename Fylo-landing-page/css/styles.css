@@ -5,6 +5,12 @@
 body
 {
     font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 50%);
+}
+
+h1, .services p
+{
+    color: hsl(0, 0%, 17%);
 }
 
 input[type=button]
@@ -22,6 +28,12 @@ input[type=button]
 
     font-size: 22px;
     font-weight: 700;
+}
+
+.btn-get-started 
+{
+    box-shadow: 5px 5px 10px lightgrey;
+    margin: 50px 0;
 }
 
 /*
@@ -67,3 +79,22 @@ header div input[type=button]
     font-weight: 500;
 }
 
+/*
+    Introdução da página
+*/
+
+.introduction
+{
+    padding: 0 40px;
+}
+
+.introduction > img 
+{
+    height: 300px;
+}
+
+.introduction > p
+{
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
