@@ -1,0 +1,196 @@
+/*
+    Padrões do site
+*/
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    min-width: 500px;
+}
+
+section
+{
+    padding: 0 40px;
+    margin: 0 auto 200px auto;
+}
+
+h1, h3
+{
+    color: hsl(0, 0%, 17%);
+}
+
+h2
+{
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+
+    padding: 10px 100px;
+}
+
+input[type=button]
+{
+    padding: 20px 100px;
+    color: white;
+    background-color: hsl(163, 95%, 43%);
+    border: none;
+    border-radius: 3px;
+    
+    /*
+    adicionar uma classe aos botões de Get Started e utilizar a propriedade a seguir
+    box-shadow: 5px 5px 10px lightgrey;
+    */
+
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.btn-get-started 
+{
+    box-shadow: 5px 5px 10px lightgrey;
+    margin: 50px 0;
+}
+
+/*
+    Cabeçalho
+*/
+
+header
+{
+    height: 220px;
+
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header div
+{
+    padding: 40px 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div a
+{
+    margin-left: auto;
+    margin-right: 20px;
+
+    text-decoration: none;
+    color: white;
+}
+
+header div input[type=button]
+{
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*
+    Introdução da página
+*/
+
+.introduction > img 
+{
+    height: 300px;
+}
+
+.description
+{
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 50%);
+}
+
+
+/*
+    Serviços
+*/
+
+.services
+{
+    background-color: #f9f9f9;
+
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.services > div 
+{
+    padding: 50px 90px;
+}
+
+/*
+    Apps
+*/
+
+.container-card
+{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.apps > h2
+{
+    padding: 0 30px;
+}
+
+.apps > p 
+{
+    margin: 20px 0 60px 0;
+}
+
+/*
+    App cards
+*/
+
+.app-card
+{
+    margin: 20px auto;
+    width: 60%;
+    min-height: 320px;
+
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 4px;
+    box-shadow: 2px 2px 25px rgb(230, 230, 230);
+
+    font-size: 14px;
+}
+
+.app-card > img 
+{
+    height: 40px;
+    padding: 40px 0;
+}
+
+.app-card > h2
+{
+    border-top: 2px solid rgb(230, 230, 230);
+    padding: 15px 0 0 0;
+    margin-top: 0;
+}
+
+
+/*
+    Rodapé
+*/
+
+footer
+{
+    background-color: hsl(243, 87%, 12%);
+    padding: 100px 0;
+}
