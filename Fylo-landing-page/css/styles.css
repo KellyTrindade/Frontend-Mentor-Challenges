@@ -5,10 +5,14 @@
 body
 {
     font-family: 'Open Sans', sans-serif;
-    color: hsl(0, 0%, 50%);
 }
 
-h1, .services p
+section
+{
+    padding: 0 40px;
+}
+
+h1, h3
 {
     color: hsl(0, 0%, 17%);
 }
@@ -85,7 +89,7 @@ header div input[type=button]
 
 .introduction
 {
-    padding: 0 40px;
+    
 }
 
 .introduction > img 
@@ -93,8 +97,9 @@ header div input[type=button]
     height: 300px;
 }
 
-.introduction > p
+.description
 {
     line-height: 1.6;
     letter-spacing: 1px;
+    color: hsl(0, 0%, 50%);
 }
