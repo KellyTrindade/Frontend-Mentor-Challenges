@@ -131,3 +131,51 @@ header div input[type=button]
 {
     padding: 50px 90px;
 }
+
+/*
+    Apps
+*/
+
+.container-card 
+{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.apps > h2
+{
+    padding: 0 30px;
+}
+
+.apps > p 
+{
+    margin: 20px 0 60px 0;
+}
+
+/*
+    App cards
+*/
+
+.app-card
+{
+    margin: 20px auto;
+    width: 60%;
+    min-height: 350px;
+
+    border: 1px solid black;
+}
+
+.app-card > img 
+{
+    height: 40px;
+    padding: 40px 0;
+}
+
+.app-card > h2
+{
+    border-top: 1px solid black;
+    padding: 15px 0 0 0;
+    margin-top: 0;
+}
