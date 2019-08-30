@@ -5,11 +5,13 @@
 body
 {
     font-family: 'Open Sans', sans-serif;
+    min-width: 500px;
 }
 
 section
 {
     padding: 0 40px;
+    margin: 0 auto 200px auto;
 }
 
 h1, h3
@@ -119,8 +121,6 @@ header div input[type=button]
     padding-top: 60px;
     padding-bottom: 100px;
 
-    margin: 100px 0;
-
     display: flex;
 
     flex-direction: column;
@@ -130,4 +130,105 @@ header div input[type=button]
 .services > div 
 {
     padding: 50px 90px;
+}
+
+/*
+    Apps
+*/
+
+.container-card
+{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.apps > h2
+{
+    padding: 0 30px;
+}
+
+.apps > p 
+{
+    margin: 20px 0 60px 0;
+}
+
+/*
+    App cards
+*/
+
+.app-card
+{
+    margin: 20px auto;
+    width: 252px;
+    min-height: 320px;
+
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 4px;
+    box-shadow: 2px 2px 25px rgb(230, 230, 230);
+
+    font-size: 14px;
+}
+
+.app-card > img 
+{
+    height: 40px;
+    padding: 40px 0;
+}
+
+.app-card > h2
+{
+    border-top: 2px solid rgb(230, 230, 230);
+    padding: 15px 0 0 0;
+    margin-top: 0;
+}
+
+
+/*
+    Rodapé
+*/
+
+footer
+{
+    background-color: hsl(243, 87%, 12%);
+    padding: 100px 0;
+
+    text-align: left;
+    color: white;
+    font-size: 14px;
+}
+
+footer div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div > h1
+{
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+}
+
+footer div > input[type=text]
+{
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+
+    border-radius: 2px;
+    border: none;
+}
+
+footer div > input[type=button]
+{
+    
+    width: 150px;
+    height: 32px;
+    font-size: 13px;
+    padding: 0;
 }
