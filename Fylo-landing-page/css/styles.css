@@ -44,6 +44,11 @@ input[type=button]
     font-weight: 700;
 }
 
+input[type=button]:hover
+{
+    cursor: pointer;
+}
+
 .btn-get-started 
 {
     box-shadow: 5px 5px 10px lightgrey;
@@ -192,7 +197,7 @@ header div input[type=button]
 footer
 {
     background-color: hsl(243, 87%, 12%);
-    padding: 100px 0;
+    padding: 100px 40px;
 
     text-align: left;
     color: white;
@@ -231,4 +236,33 @@ footer div > input[type=button]
     height: 32px;
     font-size: 13px;
     padding: 0;
+
+    align-self: flex-end;
+}
+
+footer nav > h2
+{
+    color: white;
+    font-size: 18px;
+
+    margin-top: 100px;
+}
+
+footer nav > h2, ul, li
+{
+    padding: 0;
+}
+
+footer nav ul li
+{
+    list-style-type: none;
+
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+footer nav ul li > a
+{
+    text-decoration: none;
+    color: white;
 }
